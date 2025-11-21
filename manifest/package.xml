@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <types>
+        <!-- Corrected FlexiPage names to use underscores for API names -->
+        <members>Re_Plastic_Innovations</members>
+        <members>Re_Plastic_Innovations_UtilityBar</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <!-- Corrected Layout names to use underscores for API names -->
+        <members>Re_Plastic_Innovations_Order_Layout</members>
+        <members>Re_Plastic_Innovations_Plastic_Waste_Layout</members>
+        <members>Re_Plastic_Innovations_Recycled_Product_Layout</members>
+        <members>Re_Plastic_Innovations_Recycling_Center_Layout</members>
+        <members>Re_Plastic_Innovations_Restock_Request_Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <!-- Corrected Custom Application name -->
+        <members>Re_Plastic_Innovations</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <!-- Corrected Custom Object names (without the __c suffix in this section) -->
+        <members>Re_Plastic_Innovations_Order__c</members>
+        <members>Re_Plastic_Innovations_Plastic_Waste__c</members>
+        <members>Re_Plastic_Innovations_Recycled_Product__c</members>
+        <members>Re_Plastic_Innovations_Recycling_Center__c</members>
+        <members>Re_Plastic_Innovations_Restock_Request__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <!-- Custom fields use object API name + field API name with __c suffixes -->
+        <members>Re_Plastic_Innovations_Order__c.Customer__c</members>
+        <members>Re_Plastic_Innovations_Order__c.Delivery_Date__c</members>
+        <members>Re_Plastic_Innovations_Order__c.Quantity__c</members>
+        <members>Re_Plastic_Innovations_Order__c.Recycled_Product__c</members>
+        <members>Re_Plastic_Innovations_Plastic_Waste__c.Collection_Date__c</members>
+        <members>Re_Plastic_Innovations_Plastic_Waste__c.Location__c</members>
+        <members>Re_Plastic_Innovations_Plastic_Waste__c.Recycling_Center__c</members>
+        <members>Re_Plastic_Innovations_Plastic_Waste__c.Status__c</members>
+        <members>Re_Plastic_Innovations_Plastic_Waste__c.Type__c</members>
+        <members>Re_Plastic_Innovations_Plastic_Waste__c.Weight__c</members>
+        <members>Re_Plastic_Innovations_Recycled_Product__c.Price__c</members>
+        <members>Re_Plastic_Innovations_Recycled_Product__c.Stock_Level__c</members>
+        <members>Re_Plastic_Innovations_Recycled_Product__c.Threshold__c</members>
+        <members>Re_Plastic_Innovations_Recycling_Center__c.Capacity__c</members>
+        <members>Re_Plastic_Innovations_Recycling_Center__c.Location__c</members>
+        <members>Re_Plastic_Innovations_Restock_Request__c.Product__c</members>
+        <members>Re_Plastic_Innovations_Restock_Request__c.Requested_Quantity__c</members>
+        <members>Re_Plastic_Innovations_Restock_Request__c.Status__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <!-- Custom Tab API names (object API name with __c suffix) -->
+        <members>Re_Plastic_Innovations_Order__c</members>
+        <members>Re_Plastic_Innovations_Plastic_Waste__c</members>
+        <members>Re_Plastic_Innovations_Recycled_Product__c</members>
+        <members>Re_Plastic_Innovations_Recycling_Center__c</members>
+        <members>Re_Plastic_Innovations_Restock_Request__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <!-- List Views use Object API name.DeveloperName -->
+        <members>Re_Plastic_Innovations_Order__c.Re_Plastic_Innovations_Order</members>
+        <members>Re_Plastic_Innovations_Plastic_Waste__c.Re_Plastic_Innovations_Plastic_Waste</members>
+        <members>Re_Plastic_Innovations_Recycled_Product__c.Re_Plastic_Innovations_Recycled_Product</members>
+        <members>Re_Plastic_Innovations_Recycling_Center__c.Re_Plastic_Innovations_Recycling_Center</members>
+        <members>Re_Plastic_Innovations_Restock_Request__c.Re_Plastic_Innovations_Restock_Request</members>
+        <name>ListView</name>
+    </types>
+
+    <version>65.0</version>
+</Package>

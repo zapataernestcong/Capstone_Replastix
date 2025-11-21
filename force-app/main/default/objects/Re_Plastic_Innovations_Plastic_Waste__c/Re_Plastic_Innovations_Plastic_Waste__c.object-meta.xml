@@ -162,6 +162,6 @@
     </nameField>
     <pluralLabel>Re Plastic Innovations Plastic Wastes</pluralLabel>
     <searchLayouts></searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
